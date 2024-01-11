@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -5,24 +6,33 @@ public class PlayerController : MonoBehaviour
     // Atributos publicos
     [SerializeField] private float movement;
     [SerializeField] private float dash;
+    [SerializeField] private float dashTime;
     [SerializeField] private float jump;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private TrailRenderer trailRenderer;
 
     // Atributos privados
     private Rigidbody2D rb;
-    private bool isDashing;
+    private bool isDashing = false;
+    private bool canMove = true;
     private bool seeRight = true;
+    private float gravityScale;
     private BoxCollider2D boxCollider2D;
+    private Animator anim;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
+        gravityScale = rb.gravityScale;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        Movement();
+        if (canMove == true){
+            Movement();
+        }
         Jump();
     }
 
@@ -31,6 +41,10 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector2(horisontalMovement * movement, rb.velocity.y);
         Orientation(horisontalMovement);
+
+        if (Input.GetKeyDown(KeyCode.LeftShift)){
+            StartCoroutine(Dash());
+        }
     }
 
     private void Orientation(float horientation){
@@ -57,5 +71,20 @@ public class PlayerController : MonoBehaviour
         );
 
         return raycastHit2D.collider != null;
+    }
+
+    private IEnumerator Dash(){
+        canMove = false;
+        isDashing = true;
+        rb.gravityScale = 0;
+        rb.velocity = new Vector2(dash * transform.localScale.x, 0);
+        trailRenderer.emitting = true;
+
+        yield return new WaitForSeconds(dashTime);
+
+        canMove = true;
+        isDashing = false;
+        rb.gravityScale = gravityScale;
+        trailRenderer.emitting = false;
     }
 }
