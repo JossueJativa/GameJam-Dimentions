@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: 03881f62c4ad23042beb505a06e6df42
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: The Kid Front Look sprint_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 4
+      width: 90
+      height: 145
+    spriteID: fcb732ca6a4416d4699081a0510c0920
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 4}
+  - name: The Kid Front Look sprint_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 157
+      width: 90
+      height: 145
+    spriteID: 7601cfb31b5ad1d4294e7bb5918f010e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 157}
+  - name: The Kid Front Look sprint_Frame_2
+    originalName: 
+    pivot: {x: 0.4375, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 308
+      width: 96
+      height: 145
+    spriteID: 6b107f4917c1e9e4ca1c93fe0399276b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 308}
+  - name: The Kid Front Look sprint_Frame_3
+    originalName: 
+    pivot: {x: 0.4065934, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 414
+      y: 4
+      width: 91
+      height: 141
+    spriteID: 79522ce989f2bf34abb2ab64196cee65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 414, y: 4}
+  - name: The Kid Front Look sprint_Frame_4
+    originalName: 
+    pivot: {x: 0.5588235, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 102
+      height: 144
+    spriteID: 468b77f7102238e47a55121dd7a20e4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: The Kid Front Look sprint_Frame_5
+    originalName: 
+    pivot: {x: 0.50549453, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 157
+      width: 91
+      height: 147
+    spriteID: d462e794c148e3b4d82030c31698e7cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 157}
+  - name: The Kid Front Look sprint_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 310
+      width: 90
+      height: 145
+    spriteID: 8ad69fa8994710b4c85e4e4b860dd2e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 310}
+  - name: The Kid Front Look sprint_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 4
+      width: 90
+      height: 145
+    spriteID: e723c4d81ddef1b4d8d620766babc7fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 4}
+  - name: The Kid Front Look sprint_Frame_8
+    originalName: 
+    pivot: {x: 0.4375, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 4
+      width: 96
+      height: 145
+    spriteID: 4a3d1b8bbc19b2a43b9a11211ac2dbcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 4}
+  - name: The Kid Front Look sprint_Frame_9
+    originalName: 
+    pivot: {x: 0.4065934, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 414
+      y: 153
+      width: 91
+      height: 141
+    spriteID: c75a29297f5c0354781d89f7dcedbec3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 414, y: 153}
+  - name: The Kid Front Look sprint_Frame_10
+    originalName: 
+    pivot: {x: 0.5588235, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 156
+      width: 102
+      height: 144
+    spriteID: 6ecd7ae6fa3949a42a1b990ed9cb9e63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 156}
+  - name: The Kid Front Look sprint_Frame_11
+    originalName: 
+    pivot: {x: 0.50549453, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 312
+      width: 91
+      height: 147
+    spriteID: b8dddebb222ae8641a55a8b53b627589
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 312}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1647078213
+    name: The Kid Front Look sprint
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: The Kid Front Look sprint_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 83
+        y: 0
+        width: 90
+        height: 145
+      spriteId: fcb732ca6a4416d4699081a0510c0920
+    - name: The Kid Front Look sprint_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 83
+        y: 0
+        width: 90
+        height: 145
+      spriteId: 7601cfb31b5ad1d4294e7bb5918f010e
+    - name: The Kid Front Look sprint_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 86
+        y: 0
+        width: 96
+        height: 145
+      spriteId: 6b107f4917c1e9e4ca1c93fe0399276b
+    - name: The Kid Front Look sprint_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 91
+        y: 0
+        width: 91
+        height: 141
+      spriteId: 79522ce989f2bf34abb2ab64196cee65
+    - name: The Kid Front Look sprint_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 71
+        y: 0
+        width: 102
+        height: 144
+      spriteId: 468b77f7102238e47a55121dd7a20e4e
+    - name: The Kid Front Look sprint_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 82
+        y: 0
+        width: 91
+        height: 147
+      spriteId: d462e794c148e3b4d82030c31698e7cb
+    - name: The Kid Front Look sprint_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 83
+        y: 0
+        width: 90
+        height: 145
+      spriteId: 8ad69fa8994710b4c85e4e4b860dd2e9
+    - name: The Kid Front Look sprint_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 83
+        y: 0
+        width: 90
+        height: 145
+      spriteId: e723c4d81ddef1b4d8d620766babc7fb
+    - name: The Kid Front Look sprint_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 86
+        y: 0
+        width: 96
+        height: 145
+      spriteId: 4a3d1b8bbc19b2a43b9a11211ac2dbcf
+    - name: The Kid Front Look sprint_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 91
+        y: 0
+        width: 91
+        height: 141
+      spriteId: c75a29297f5c0354781d89f7dcedbec3
+    - name: The Kid Front Look sprint_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 71
+        y: 0
+        width: 102
+        height: 144
+      spriteId: 6ecd7ae6fa3949a42a1b990ed9cb9e63
+    - name: The Kid Front Look sprint_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 82
+        y: 0
+        width: 91
+        height: 147
+      spriteId: b8dddebb222ae8641a55a8b53b627589
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 256, y: 256}

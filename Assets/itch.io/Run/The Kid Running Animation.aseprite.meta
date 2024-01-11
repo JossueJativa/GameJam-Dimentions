@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 88462fe60e4600540b2b0ca7e1746634
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: The Kid Running Animation_Frame_1
+    originalName: 
+    pivot: {x: 0.41322312, y: -0.012345679}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 121
+      height: 162
+    spriteID: b57283bf27e6925448159d52698834c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: The Kid Running Animation_Frame_2
+    originalName: 
+    pivot: {x: 0.3425926, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 4
+      width: 108
+      height: 164
+    spriteID: e0a794c39588cd54eb73f3bf33835120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 4}
+  - name: The Kid Running Animation_Frame_3
+    originalName: 
+    pivot: {x: 0.41441444, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 4
+      width: 111
+      height: 167
+    spriteID: 36064db1e11db08448550866ac0844e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 4}
+  - name: The Kid Running Animation_Frame_4
+    originalName: 
+    pivot: {x: 0.41322312, y: -0.012345679}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 174
+      width: 121
+      height: 162
+    spriteID: d81e5c86518d182498d23fd2b19dd28c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 174}
+  - name: The Kid Running Animation_Frame_5
+    originalName: 
+    pivot: {x: 0.3425926, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 176
+      width: 108
+      height: 164
+    spriteID: 09e50b0a42fd4cc479123d82cbdfa329
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 176}
+  - name: The Kid Running Animation_Frame_6
+    originalName: 
+    pivot: {x: 0.41441444, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 179
+      width: 111
+      height: 167
+    spriteID: 4cd8d6f17fa276946b3f8a25d799a557
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 179}
+  - name: The Kid Running Animation_Frame_7
+    originalName: 
+    pivot: {x: 0.41322312, y: -0.012345679}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 344
+      width: 121
+      height: 162
+    spriteID: 53030987464168a4ab88fd2e5ca7d983
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 344}
+  - name: The Kid Running Animation_Frame_8
+    originalName: 
+    pivot: {x: 0.3425926, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 4
+      width: 108
+      height: 164
+    spriteID: bd926477017831548aa0663d637e06e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 368, y: 4}
+  - name: The Kid Running Animation_Frame_0
+    originalName: 
+    pivot: {x: 0.44444445, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 176
+      width: 72
+      height: 168
+    spriteID: 0c17f64ed5b733347b22c8451b737382
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 368, y: 176}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1494357444
+    name: The Kid Running Animation
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: The Kid Running Animation_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 78
+        y: 2
+        width: 121
+        height: 162
+      spriteId: b57283bf27e6925448159d52698834c5
+    - name: The Kid Running Animation_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 91
+        y: 0
+        width: 108
+        height: 164
+      spriteId: e0a794c39588cd54eb73f3bf33835120
+    - name: The Kid Running Animation_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 82
+        y: 0
+        width: 111
+        height: 167
+      spriteId: 36064db1e11db08448550866ac0844e2
+    - name: The Kid Running Animation_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 78
+        y: 2
+        width: 121
+        height: 162
+      spriteId: d81e5c86518d182498d23fd2b19dd28c
+    - name: The Kid Running Animation_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 91
+        y: 0
+        width: 108
+        height: 164
+      spriteId: 09e50b0a42fd4cc479123d82cbdfa329
+    - name: The Kid Running Animation_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 82
+        y: 0
+        width: 111
+        height: 167
+      spriteId: 4cd8d6f17fa276946b3f8a25d799a557
+    - name: The Kid Running Animation_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 78
+        y: 2
+        width: 121
+        height: 162
+      spriteId: 53030987464168a4ab88fd2e5ca7d983
+    - name: The Kid Running Animation_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 91
+        y: 0
+        width: 108
+        height: 164
+      spriteId: bd926477017831548aa0663d637e06e9
+    - name: The Kid Running Animation_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 96
+        y: 0
+        width: 72
+        height: 168
+      spriteId: 0c17f64ed5b733347b22c8451b737382
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 256, y: 256}
