@@ -39,6 +39,12 @@ public class PlayerController : MonoBehaviour
     private void Movement(){
         float horisontalMovement = Input.GetAxis("Horizontal");
 
+        // if(horisontalMovement != 0){
+        //     anim.SetBool("isRunning", true);
+        // } else {
+        //     anim.SetBool("isRunning", false);
+        // }
+
         rb.velocity = new Vector2(horisontalMovement * movement, rb.velocity.y);
         Orientation(horisontalMovement);
 
